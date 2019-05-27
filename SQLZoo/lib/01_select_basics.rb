@@ -54,7 +54,7 @@ def small_and_wealthy
     FROM
       countries
     WHERE
-      area < 2000 AND gdp > 5000000000
+      area < 2000 AND gdp > 5000000000;
   SQL
 end
 
@@ -79,7 +79,7 @@ def starts_with_g
     FROM
       countries
     WHERE
-      name LIKE 'G%'
+      name LIKE 'G%';
   SQL
 end
 
@@ -93,7 +93,7 @@ def just_the_right_size
     FROM
       countries
     WHERE
-      area BETWEEN 200000 AND 250000
+      area BETWEEN 200000 AND 250000;
   SQL
   
 end
